@@ -1,8 +1,12 @@
+## transcriptome graphic
+
+![Screenshot](https://github.com/marktwh/transcriptome_graphic/blob/main/Screenshot.png)
+
 This picture is a representation of all of the coding-sequences of all the 'canonical' transcripts in the human transcriptome. Each transcript is represented by a line in which each pixel represents a nucleotide. Longer transcripts are stacked on top of shorter transcripts with a space between each.
 
-It's a screenshot because the full-size image is 107976x47646 (5.1 gigapixels). To display properly, it would require 29x23 4K UHD monitors. That said, it would fit on a single A0 poster provided you were able to print it at 2400x2400dpi.
+It's a screenshot because the full-size [image](https://github.com/marktwh/transcriptome_graphic/blob/main/src/output.png) is 107976x47646 (5.1 gigapixels). To display properly, it would require 29x23 4K UHD monitors. That said, it would fit on a single A0 poster provided you were able to print it at 2400x2400dpi.
 
-The .png is only about 5Mb because of compression, but in order to open it you may require specialist software such as *vliv* or *IrfanView*.
+The .png is only about 5Mb because of compression, but in order to open it you may require specialist software such as [*vliv*](https://github.com/delhoume/vliv) or [*IrfanView*](https://www.irfanview.com/).
 
 I made this picture because I'm learning to make figures with R and ggplot2. As part of the course I'm on, there was a section on the principles and philosophy of data visualisation. This mentioned Edward Tufte and some other folk. It didn't mention Marshall McLuhan but it should've. It stressed that the representation of data should not obscure the meaning of the data. It suggested that things like log-scales may be unsuitable for non-technical audiences who might not understand them.
 
